@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+  <head>
+    <style>
+      .grid > div {
+        border: 2px solid red;
+        max-width: 100px;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr ;
+        border: 2px solid;
+        justify-content: center;
+        gap: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid">
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+    </div>
+  </body>
+</html>
